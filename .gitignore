@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Office temp files
+~$*
+*.tmp
+
+# Power BI local cache
+.pbi/
+*.pbi.tmp
+
+# Environment and credentials (never commit these)
+.env
+*.env
+config.local.*
+*.pem
+*.key
+db_credentials*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+
+# Logs and backups
+*.log
+*.bak
